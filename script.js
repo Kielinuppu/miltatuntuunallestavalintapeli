@@ -15,13 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextArrow = document.getElementById('nextArrow');
 
     const statements = [
-        "NALLE ON ILOINEN",
-        "NALLE ON SURULLINEN",
-        "NALLE ON PELOISSAAN",
-        "NALLE ON TYYTYVÄINEN",
-        "NALLE ON VIHAINEN",
-        "NALLE ON UTELIAS",
-        "NALLE ON VÄSYNYT"
+        "NALLE ON ILOINEN.",
+        "NALLE ON SURULLINEN.",
+        "NALLE ON PELOISSAAN.",
+        "NALLE ON TYYTYVÄINEN.",
+        "NALLE ON VIHAINEN.",
+        "NALLE ON UTELIAS.",
+        "NALLE ON VÄSYNYT."
     ];
 
     let currentRound = 0;

@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const finalFeedback = document.getElementById('finalFeedback');
     const scoreText = document.getElementById('scoreText');
     const nextArrow = document.getElementById('nextArrow');
+    const speakerIcon = document.getElementById('speakerIcon');
 
     const statements = [
         "NALLE ON ILOINEN.",
@@ -151,4 +152,5 @@ document.addEventListener('DOMContentLoaded', () => {
     trueButton.addEventListener('click', () => checkAnswer(true));
     falseButton.addEventListener('click', () => checkAnswer(false));
     nextArrow.addEventListener('click', nextQuestion);
+    speakerIcon.addEventListener('click', playQuestionAudio);
 });
